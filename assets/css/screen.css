@@ -373,6 +373,15 @@ em, i, q {
   background: #ddd;
 }
 
+.grid-demo__header {
+  background: #333;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+.grid-demo__header h1 {
+  color: #fff;
+}
+
 .grid-demo__module {
   padding: 10px;
   text-align: center;

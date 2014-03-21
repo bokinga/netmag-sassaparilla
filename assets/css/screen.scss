@@ -52,7 +52,12 @@ a {
 }
 
 .grid-demo__header {
-	
+	background: #333;
+	padding: 20px 0;
+	margin-bottom: 10px;
+	h1 {
+		color: #fff;
+	}
 }
 
 .grid-demo__module {
