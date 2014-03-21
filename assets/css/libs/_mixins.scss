@@ -62,10 +62,4 @@
 		display: inline;
 		display: inline-block;
 	}
-	// Gutters
-	*[class*="with-gutter"] {
-		@media screen and (min-width: $start-columns) {
-			padding-left: $internal-spacing-percent; 
-		}
-	}
 }

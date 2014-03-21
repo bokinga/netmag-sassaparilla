@@ -129,12 +129,6 @@ em, i, q {
   display: inline-block;
 }
 
-@media screen and (min-width: 460px) {
-  *[class*="with-gutter"] {
-    padding-left: 3%;
-  }
-}
-
 .row {
   overflow: hidden;
   padding-left: 10px;
@@ -346,22 +340,6 @@ em, i, q {
     padding-left: 0;
     padding-right: 0;
   }
-}
-
-.row__colspaced {
-  position: relative;
-  overflow: hidden;
-}
-@media screen and (min-width: 460px) {
-  .row__colspaced {
-    min-width: 103%;
-    left: -3%;
-  }
-}
-.lt-ie9 .row__colspaced {
-  max-width: 100%;
-  min-width: auto;
-  left: auto;
 }
 
 /* ::Grid demo styles */

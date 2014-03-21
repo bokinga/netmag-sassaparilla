@@ -34,24 +34,3 @@
 		padding-right: 0;								// Remove padding
 	}
 }
-
-// ------------------------------------------------------------
-// Additional child if using gutters
-// :: Drag row left to allow for equal spaced grid. AKA gutters
-// ------------------------------------------------------------
-
-
-.row__colspaced {
-	position: relative;
-	overflow: hidden;
-	@media screen and (min-width: $start-columns) {			
-		min-width: (100% + $internal-spacing-percent); 	
-		left: -$internal-spacing-percent; 	
-	}
-	// Hack back for less than IE 9
-	.lt-ie9 & { 
-		max-width: 100%; 
-		min-width: auto; 
-		left: auto; 
-	}
-}
