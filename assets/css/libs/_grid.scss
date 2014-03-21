@@ -13,7 +13,7 @@
 	
 	// Set up a two column grid here and beyond this breakpoint
 	// See _settings.scss for this value
-	@media screen and (min-width: $start-columns) { 
+	@media screen and (min-width: 460px) { 
 		@include grid_columns(2); 						// Fetch a two column grid
 	}
 	
